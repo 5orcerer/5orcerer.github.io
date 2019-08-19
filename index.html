@@ -1,7 +1,99 @@
 <!DOCTYPE html>
 <html>
+
+<head>
+    <title>Testpage</title>
+    <link href="style_template.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-color: rgb(71, 108, 156);
+            text-align: center;
+            color: black;
+        }
+
+        #image {
+            display: block;
+            margin: auto;
+            max-width: 100%;
+        }
+
+        #tribute-info {
+            display: block;
+            color: black;
+            font-size: 20px;
+            text-align: justify;
+            max-width: 800px;
+            margin: auto;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        #title {
+            font-family: 'Poiret One', cursive;
+        }
+
+        h3 {
+            text-align: center;
+        }
+
+        #p1,
+        #p2,
+        #p3,
+        #p4,
+        #p5,
+        #p6,
+        #p7,
+        #p8,
+        #p9,
+        #p10 {
+            background-color: rgba(83, 145, 136, 0.281);
+            border-radius: 15px;
+            padding: 20px;
+            transition: 1s;
+        }
+
+        #p1:hover,
+        #p2:hover,
+        #p3:hover,
+        #p4:hover,
+        #p5:hover,
+        #p6:hover,
+        #p7:hover,
+        #p8:hover,
+        #p9:hover,
+        #p10:hover {
+            background-color: rgba(41, 68, 64, 0.281);
+            transition: 1.3s;
+        }
+
+        .rotate180 {
+            transform: rotate(180deg);
+        }
+    </style>
+</head>
+
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+    <main id="main">
+        <h1 id="title">Testpage </br> This Testpage is going to become great in near future.</h1>
+        <div id="img-div">
+            <figure>
+                <img id="image" src="IMG_0990.jpg" title="Zeppelin" class="rotate180" width="60%">
+                <figcaption id="img-caption">Picture of a Zeppelin shot in Düsseldorf in 2019</figcaption>
+            </figure>
+        </div>
+        <div id="tribute-info">
+            <h3>Content</h3>
+            <p id="p1">Lorem ipsum dolor sit amet, id mutat dolorem facilisis usu, aliquam assueverit delicatissimi ex
+                eam, ea tota harum laboramus ius. Te elit doctus repudiare eos, cu appareat euripidis eloquentiam pro,
+                noluisse splendide vel ut. Malorum phaedrum constituam duo in, admodum consectetuer signiferumque his
+                id. Nibh legendos eam ne, cum an wisi latine.</p>
+            </ul>
+        </div>
+        <p></p>
+        <a id="tribute-link" target="_blank" href="https://www.wikiwand.com/en/Zeppelin" style="color: white">Learn more
+            about Zeppelins on Wikipedia.</a>
+    </main>
 </body>
+
 </html>
